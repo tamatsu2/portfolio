@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name ="viewport" content="width=device-width, initial-scale=1">
+  <meta name="descrition" content="たまつなおやのポートフォリオです。">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<body id="home">
+  <!--header begin-->
+    <header id="top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><i class="bi bi-image me-1"></i>Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#profile">PROFILE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skill">SKILL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#qualification">QUALIFICATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#works">WORKS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="main_image" class="header_content wrapper">
+        <h1>Naoya Tamatsu's Portfolio</h1>
+      </div>
+    </header>
+  <!--header end-->
+  <!--contents begin-->
+    <div class="contents wrapper">
+      <!--main begin-->
+        <main class="main_content">
+          <section id="profile">
+            <h2>PROFILE</h2>
+              <img id="profile_image" src="images/profile_image.jpeg" alt="本人写真">
+                <p>はじめまして。玉津 直哉と申します。平成5年生まれの29歳です。<br>
+                  趣味はカフェ巡りと海外サッカー観戦です。<br>
+                  大学卒業後ボーリング場でアルバイトをしておりましたが、自らの将来を見据えて、2021年より以前から興味があったIT業界に転職いたしました。<br>
+                  入社後の2か月間はCCNAの資格取得に向けての学習とサーバ・ネットワークの基礎学習、Word・Excelの基本動作を学びました。<br>
+                  現在の配属先では、MSPとして顧客のサーバ・ネットワークの運用・保守・監視業務を行っております。<br>
+                  主にAWSのCloudWatchを用いた監視を行っており、日々の業務で培ったAWSについての知見を活かそうと考えております。<br>
+                  また、自主学習としてオンライン学習サービスであるUdemyを利用し、ウェブ開発初学者向けの講義を受け、プログラミングについての基礎的なスキルの習得に努めております。<br>
+                </p>
+          </section>
+          <section id="skill">
+            <h2>SKILL(自主学習)</h2>
+              <dt>マークアップ言語</dt>
+              <dd>HTML, CSS</dd>
+              <dt>フロントエンド</dt>
+              <dd>JavaScript</dd>
+              <dt>バックエンド</dt>
+              <dd>php(Laravel), Ruby(Rails)</dd>
+              <dt>DB</dt>
+              <dd>MySQL</dd>
+              <dt>サーバー・インフラ</dt>
+              <dd>AWS, Nginx</dd>
+          </section>
+          <section id="qualification">
+            <h2>QUALIFICATION</h2>
+              <li>CCNA</li>
+              <li>AWS SAA</li>
+              <li>LPIC-1</li>
+          </section>
+          <section id="works">
+            <h2>WORKS</h2>
+              <dt>LPIC問題集</dt>
+                <dd>LPIC 101の問題集になります。選択肢を選ぶと、正解・不正解の通知と答えが表示されます。<br>使用ツール:PHP, CSS, JavaScript, Nginx, AWS <br>
+                  <a href="https://lpic-quiz-999.com/">LPIC問題集のリンク</a>
+                </dd>
+          </section>
+        </main>
+      <!--main end-->
+      <!--sidebar begin-->
+        <aside id="sidebar">
+              <a href="https://lpic-quiz-999.com/">
+                <img  id="works_lpic" src="images/works_lpic.png" alt="LPIC問題集">
+              </a>
+        </aside>
+      <!--sidebar end-->
+    </div>
+  <!--contents end-->
+  <!--fotter begin-->
+    <footer>
+      <ul>
+        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#qualification">QUALIFICATION</a></li>
+        <li><a href="#works">WORKS</a></li>
+      </ul>
+      <small>&copy; Naoya Tamatsu. All Rights Reserved.</small>
+    </footer>
+  <!--fotter end-->
+</body>
+</html>
