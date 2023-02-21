@@ -85,11 +85,11 @@ header {
   width: 50%;
 }
 
-a:link {
+h2 a:link {
   color:blue;
 }
 
-a:hover {
+h2 a:hover {
   color:aqua;
 }
 
